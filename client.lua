@@ -1,0 +1,5 @@
+AddEventHandler("playerSpawned", function()
+    print("[CodeBlock] - Loading Screen Off ")
+    ShutdownLoadingScreen()
+    ShutdownLoadingScreenNui()
+end)
